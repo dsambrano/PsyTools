@@ -1,0 +1,26 @@
+Package: PsyTools
+Type: Package
+Title: Basic Tools for an Advanced Psychological Statistics Course
+Version: 0.0.0.9000
+Date: 2015-12-15
+Author@R: c(person("K.", "Preston", role = c("aut", "cre"),
+    email = "kpreston@fullerton.edu"),
+    person("D.", "Sambrano", role = c("aut", "cre"),
+    email = "3dbrano3@csu.fullerton.edu"))
+Description: This package provides useful functions of analyses covered in a
+	typical advanced statistics course for psychology. In particular, this
+	package provides functions for hierarchical regression, simple effects
+	analyses, and normality screening. Two of the highlighted functions of this
+	package is that allows for the test of simple effects in a 2 factorial anova
+	design and produces a way to visualize interactions between continuous data
+	rather than dichotomizing a continous variable. 
+License: GPL-3
+Depends:
+    R (>= 3.1.1)
+Imports:
+    MASS,
+    MPV,
+    R.utils,
+    wle,
+LazyData: TRUE
+RoxygenNote: 6.0.1
